@@ -8,4 +8,4 @@ inputs:
     default: 'package'
 runs:
   using: 'node12'
-  main: 'lib/js/src/setup_esy.bs.js'
+  main: 'setup_esy.js'

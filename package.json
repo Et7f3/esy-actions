@@ -2,7 +2,7 @@
   "name": "esy-actions",
   "version": "1.0.0",
   "description": "Setup your runner with esy.sh",
-  "main": "lib/js/src/setup_esy.bs.js",
+  "main": "setup_esy.js",
   "directories": {
     "lib": "lib"
   },
@@ -17,7 +17,7 @@
     "bs-platform": "^5.0.6"
   },
   "scripts": {
-    "start": "node lib/js/src/setup_esy.bs.js",
+    "start": "node setup_esy.js",
     "test": "echo no test",
     "clean": "bsb -clean-world",
     "build": "bsb -make-world",
